@@ -21,9 +21,9 @@ export function About() {
         <Reveal delay={120} className="flex flex-col gap-4 lg:col-span-5">
           <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
             <img
-              src="/images/about-visual.png"
+              src="/images/WhatsApp%20Image%202025-12-31%20at%2001.11.14.jpeg"
               alt="Bhumika product and UX design visual"
-              className="aspect-[16/10] w-full object-cover"
+              className="aspect-[16/10] w-full object-cover object-top"
             />
           </div>
           <dl className="grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-white/10">
