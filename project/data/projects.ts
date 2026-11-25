@@ -948,6 +948,191 @@ export const projects: Project[] = [
       },
     },
   },
+  {
+    slug: 'unstudio-ai',
+    title: 'Unstudio AI',
+    tagline: 'AI product photography platform for furniture & home decor brands',
+    category: 'AI & Commercial SaaS',
+    filters: ['AI & Agentic', 'Enterprise SaaS'],
+    summary:
+      '2024 product experience, UX research, and front-end UI for Unstudio AI’s generative product photography platform serving furniture and home decor brands (prior to the company’s 2026 pivot to AI marketing).',
+    problem:
+      'Traditional furniture and decor photoshoots are expensive and slow, yet retail teams hesitated to adopt AI imagery due to realism and product-consistency concerns.',
+    solution:
+      'Designed and built a clear, trust-led web experience explaining model fine-tuning, human-in-the-loop editing, real retail use cases, and transparent pricing.',
+    metrics: [
+      { value: '2024', label: '0-to-1 launch' },
+      { value: '3-Step', label: 'Hybrid AI workflow' },
+      { value: 'B2B', label: 'Furniture & decor focus' },
+    ],
+    visual: {
+      type: 'image',
+      src: '/images/unstudio-hero.png',
+      alt: 'Unstudio AI landing visual showcasing photorealistic interior renders',
+    },
+    caseStudy: {
+      executiveSummary:
+        'In 2024, I worked as a UI Developer and UX Researcher during the initial launch of Unstudio AI when the company focused on AI-generated product photography for furniture, lighting, and home decor brands. I researched how retail buyers evaluate AI visuals against traditional studio shoots and built responsive UI flows that turned skepticism into clear product understanding.',
+      meta: {
+        role: 'UI Developer & UX Researcher',
+        duration: '2024 (Launch phase)',
+        team: 'Founders, AI engineers, design team',
+        platform: 'Web (B2B SaaS)',
+      },
+      impact: [
+        { value: '2024', label: '0-to-1 product launch' },
+        { value: '3-Step', label: 'AI + human editing pipeline' },
+        { value: '3+', label: 'Enterprise retail use cases' },
+      ],
+      problem: {
+        intro:
+          'Furniture, lighting, and home decor brands spend heavily shipping physical inventory to studios and staging room sets. Early generative AI tools promised speed, but retail teams struggled to trust whether AI could preserve exact textures, proportions, and brand styling.',
+        points: [
+          {
+            title: 'High logistics cost of studio shoots',
+            body: 'Shipping bulky furniture and staging multiple room environments created long lead times and high production costs per SKU.',
+          },
+          {
+            title: 'Distrust of generic AI renders',
+            body: 'Brand teams worried off-the-shelf AI generators would distort product geometry, fabric grain, or lighting accuracy.',
+          },
+          {
+            title: 'Unclear onboarding & pricing expectations',
+            body: 'Prospective B2B clients didn’t know how custom model training worked or how per-product commitments scaled.',
+          },
+        ],
+      },
+      research: {
+        intro:
+          'I interviewed prospective e-commerce and catalog stakeholders and audited competing AI photography tools to uncover what prevented furniture brands from switching away from physical shoots.',
+        methods: [
+          'Stakeholder & buyer discovery',
+          'Competitive AI photography audit',
+          'Visual quality & trust evaluation',
+          'Information architecture testing',
+        ],
+        insights: [
+          {
+            source: 'Buyer discovery',
+            title: 'Teams wanted human QA alongside AI speed',
+            body: 'Pure automation felt risky for flagship catalogs. Explaining that designers refine lighting, shadows, and textures after model generation significantly increased confidence.',
+          },
+          {
+            source: 'Visual trust evaluation',
+            title: 'Real brand proof mattered more than technical jargon',
+            body: 'Seeing recognizable furniture and decor categories styled in realistic interiors answered quality questions faster than model specs.',
+          },
+          {
+            source: 'Onboarding audit',
+            title: 'Custom model training needed transparent unit pricing',
+            body: 'Separating one-time product model training from per-image generation costs made budgeting straightforward for catalog managers.',
+          },
+        ],
+      },
+      process: {
+        intro:
+          'I translated these research findings into a narrative page architecture and built responsive UI components that guided visitors from visual proof to workflow clarity and pricing.',
+        flow: [
+          { title: 'Visual proof', detail: 'Lead with photorealistic interior renders to establish quality immediately' },
+          { title: 'Value framing', detail: 'Compare studio bottlenecks against AI speed, accuracy, and cost' },
+          { title: 'Workflow transparency', detail: 'Break down fine-tuning, expert editing, and custom environments' },
+          { title: 'Retail validation', detail: 'Showcase category-specific furniture and decor applications' },
+          { title: 'Clear pricing', detail: 'Present model training and per-image tiers upfront' },
+        ],
+        architecture: [
+          { group: 'Discovery & Proof', items: ['Hero showcase', 'Category positioning', 'ROI comparison'] },
+          { group: 'Workflow & Trust', items: ['Fine-tuned AI models', 'Expert-led editing', 'Custom environments'] },
+          { group: 'Conversion', items: ['Brand use cases', 'Tiered pricing breakdown', 'Direct inquiry'] },
+        ],
+        decisions: [
+          {
+            title: 'Lead with high-contrast visual framing',
+            body: 'Used bold masked typography and real interior outputs up front so visitors judged visual realism within seconds.',
+          },
+          {
+            title: 'Make human-in-the-loop editing explicit',
+            body: 'Highlighted designer retouching as a core step between AI generation and final delivery to remove perceived quality risk.',
+          },
+          {
+            title: 'Structure pricing around SKU training + output volume',
+            body: 'Presented minimum product commitments and per-image rates in scannable cards to reduce back-and-forth sales friction.',
+          },
+        ],
+      },
+      solution: [
+        {
+          id: 'workflow',
+          title: 'Transparent 3-step AI + human workflow',
+          summary:
+            'Broke down the production pipeline into product-specific model training, expert designer refinement, and custom environment styling.',
+          bullets: [
+            'Clear explanation of product-specific AI fine-tuning',
+            'Explicit human design QA for shadows, textures, and proportions',
+            'Custom room environments without physical studio constraints',
+          ],
+          visual: {
+            type: 'image',
+            src: '/images/unstudio-process.png',
+            alt: 'Unstudio AI three-step workflow: Fine-Tuned AI Models, Expert-Led Editing, and Creative Freedom',
+          },
+        },
+        {
+          id: 'use-cases',
+          title: 'Category-led retail showcase',
+          summary:
+            'Organized visual proof around real furniture, lighting, and home decor applications for brands like Wakefit, Orange Tree, and Hometown.',
+          bullets: [
+            'Context-rich interior scenes across sofas, dining, and decor accents',
+            'Consistent brand styling across multiple angles and rooms',
+            'Social proof anchored in recognizable retail partners',
+          ],
+          visual: {
+            type: 'image',
+            src: '/images/unstudio-usecases.png',
+            alt: 'Unstudio AI retail use cases featuring furniture and home decor renders',
+          },
+        },
+        {
+          id: 'pricing',
+          title: 'Scannable B2B pricing & packaging',
+          summary:
+            'Structured commercial terms into clear cards covering per-product model training, included edited renders, and add-on image pricing.',
+          bullets: [
+            'Upfront per-product training cost and minimum commitment',
+            'Included edited images per trained SKU',
+            'Transparent per-image scaling and custom enterprise path',
+          ],
+          visual: {
+            type: 'image',
+            src: '/images/unstudio-pricing.png',
+            alt: 'Unstudio AI pricing cards detailing product training and per-image rates',
+          },
+        },
+      ],
+      takeaways: {
+        impact: [
+          {
+            title: 'Aligned UX with commercial clarity',
+            body: 'Turned a complex AI rendering pipeline into a structured, self-explanatory product story for retail buyers.',
+          },
+          {
+            title: 'Bridged research and front-end execution',
+            body: 'Combined user discovery with hands-on UI implementation to ship cohesive, responsive layouts quickly during early launch.',
+          },
+        ],
+        learnings: [
+          {
+            title: 'In generative AI, process transparency builds trust',
+            body: 'Showing where human craft refines AI output matters just as much as showcasing the final generated image.',
+          },
+          {
+            title: 'Document 0-to-1 work in its historical context',
+            body: 'Even when an early-stage startup later pivots its direction, clearly framing the user problem and shipped work keeps the case study grounded and credible.',
+          },
+        ],
+      },
+    },
+  },
 ]
 
 export function getProject(slug: string) {
