@@ -18,8 +18,15 @@ export function About() {
             {profile.location}
           </p>
         </Reveal>
-        <Reveal delay={120} className="lg:col-span-5">
-          <dl className="grid h-full grid-cols-1 content-end gap-px overflow-hidden rounded-2xl bg-white/10">
+        <Reveal delay={120} className="flex flex-col gap-4 lg:col-span-5">
+          <div className="overflow-hidden rounded-2xl border border-white/10 bg-white/5">
+            <img
+              src="/images/about-visual.png"
+              alt="Bhumika product and UX design visual"
+              className="aspect-[16/10] w-full object-cover"
+            />
+          </div>
+          <dl className="grid grid-cols-1 gap-px overflow-hidden rounded-2xl bg-white/10">
             {profile.stats.map((s) => (
               <div key={s.label} className="flex items-baseline justify-between gap-4 bg-ink p-5">
                 <dt className="text-sm text-white/60">{s.label}</dt>
