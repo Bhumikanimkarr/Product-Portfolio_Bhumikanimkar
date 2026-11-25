@@ -16,11 +16,9 @@ export const profile = {
 }
 
 export const contact = {
-  email: 'your-email@example.com',
+  email: 'bhumikanimkar@outlook.com',
   links: [
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/bhumika-nimkar-5b3888207/' },
-    
-    { label: 'Email', href: 'mailto:bhumikanimkar@outlook.com' },
   ],
 }
 
