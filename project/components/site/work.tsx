@@ -52,7 +52,7 @@ export function Work() {
                 className="group relative grid gap-6 rounded-3xl border bg-card p-4 transition-shadow focus-within:ring-2 focus-within:ring-ring hover:shadow-xl md:p-6 lg:grid-cols-12 lg:gap-10"
               >
                 <div className={cn('relative z-10 lg:col-span-7', flip && 'lg:order-2')}>
-                  <Link href={`/work/${project.slug}`} className="block">
+                  <Link href={`/work/${project.slug}`} scroll={true} className="block">
                     <ProjectVisual
                       visual={project.visual}
                       interactive={false}
@@ -66,7 +66,7 @@ export function Work() {
                   </p>
                   <div>
                     <h3 className="text-3xl font-semibold tracking-tight md:text-4xl">
-                      <Link href={`/work/${project.slug}`} className="hover:underline">
+                      <Link href={`/work/${project.slug}`} scroll={true} className="hover:underline">
                         {project.title}
                       </Link>
                     </h3>
@@ -100,6 +100,7 @@ export function Work() {
                   </dl>
                   <Link
                     href={`/work/${project.slug}`}
+                    scroll={true}
                     className="inline-flex items-center gap-2 self-start rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03]"
                   >
                     Read case study
