@@ -4,12 +4,12 @@ export const profile = {
   title: 'Product Designer / UX Designer',
   location: 'India · Remote',
   availability: 'Open to full-time Product / UX roles',
-  yearsExperience: '3+',
+  yearsExperience: '4+',
   intro:
-    'User Experience Designer balancing pixels, processes and people. Turning complex AI, healthcare and enterprise workflows into intuitive products.',
+    'User Experience Designer balancing pixels, processes, and people. Turning complex AI, healthcare and enterprise workflows into intuitive products.',
   bio: "I'm Bhumika, a Product & UX Designer specializing in Conversational AI, B2B Enterprise Systems and Agentic AI. I bridge deep user research with scalable systems thinking to ship high-impact digital products.",
   stats: [
-    { value: '3+', label: 'Years of experience' },
+    { value: '4+', label: 'Years of experience' },
     { value: '13+', label: 'Shipped & concept projects' },
     { value: 'B2B', label: 'Enterprise & HealthTech focus' },
   ],
@@ -18,9 +18,9 @@ export const profile = {
 export const contact = {
   email: 'your-email@example.com',
   links: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/' },
-    { label: 'Behance', href: 'https://www.behance.net/' },
-    { label: 'Email', href: 'mailto:your-email@example.com' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/bhumika-nimkar-5b3888207/' },
+    
+    { label: 'Email', href: 'mailto:bhumikanimkar@outlook.com' },
   ],
 }
 
@@ -28,7 +28,7 @@ export const problems = [
   {
     title: 'Make AI feel trustworthy',
     problem: 'Complex AI workflows feel opaque and untrustworthy to everyday users.',
-    help: 'I design AI flows that show their reasoning: confidence, sources and a clear human override, so people know when to rely on the model.',
+    help: 'I design AI flows that show their reasoning: confidence, sources, and a clear human override, so people know when to rely on the model.',
     projectSlug: 'msk-triage',
   },
   {
@@ -40,7 +40,7 @@ export const problems = [
   {
     title: 'Remove login friction',
     problem: 'Fragmented logins and security friction slow down employee productivity.',
-    help: 'I simplify identity into one entry point with passkeys, MFA and magic links, plus admin controls IT can actually manage.',
+    help: 'I simplify identity into one entry point with passkeys, MFA, and magic links, plus admin controls IT can actually manage.',
     projectSlug: 'authlynk',
   },
   {
@@ -83,13 +83,13 @@ export const processSteps = [
   {
     title: 'Discover',
     timing: 'Week 1–2',
-    body: 'Stakeholder interviews, user research, analytics and competitor audits to understand the real problem and the people behind it.',
+    body: 'Stakeholder interviews, user research, analytics, and competitor audits to understand the real problem and the people behind it.',
     deliverables: ['Research synthesis', 'User interviews', 'Competitive audit'],
   },
   {
     title: 'Define',
     timing: 'Week 2–3',
-    body: 'Turning research into a sharp problem statement, personas, journeys and the success metrics this work must move.',
+    body: 'Turning research into a sharp problem statement, personas, journeys, and the success metrics this work must move.',
     deliverables: ['Problem statement', 'Journey maps', 'Success metrics'],
   },
   {
@@ -131,7 +131,7 @@ export const faqs = [
   },
   {
     q: 'What does your design process look like?',
-    a: 'Research first. I start with interviews and data to define the right problem, then move through flows, wireframes and high-fidelity prototypes, testing with real users before handoff, and I measure the outcome after launch.',
+    a: 'Research first. I start with interviews and data to define the right problem, then move through flows, wireframes, and high-fidelity prototypes, testing with real users before handoff, and I measure the outcome after launch.',
   },
   {
     q: 'What experience do you have with AI and enterprise products?',
@@ -143,6 +143,6 @@ export const faqs = [
   },
   {
     q: 'How soon can you start?',
-    a: 'I am actively looking and can start soon after an offer, depending on notice requirements. Reach out and we can find a timeline that works.',
+    a: 'I am actively looking and can start soon after an offer, depending on notice requirements. Reach out, and we can find a timeline that works.',
   },
 ]
