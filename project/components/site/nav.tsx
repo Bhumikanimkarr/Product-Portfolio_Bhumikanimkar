@@ -51,27 +51,31 @@ export function Nav() {
           ))}
         </ul>
 
-        <div className="flex items-center gap-2 sm:gap-3">
+        <div className="flex items-center gap-2 sm:gap-2.5">
           <a
             href="/resume.pdf"
             download="Bhumika_Nimkar_Resume.pdf"
             aria-label="Download Resume PDF"
-            className="group inline-flex items-center gap-1 whitespace-nowrap rounded-full px-2.5 py-2 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground sm:px-3"
+            className="group inline-flex shrink-0 items-center gap-1.5 whitespace-nowrap rounded-full border border-neutral-900/20 bg-white px-3.5 py-2 text-sm font-medium text-neutral-900 shadow-xs transition hover:border-neutral-900/35 hover:bg-neutral-50 active:scale-[0.99]"
           >
             <span>Resume</span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
-              className="size-3.5 transition-transform duration-150 group-hover:translate-y-0.5 sm:size-4"
-            >
-              <path
-                fillRule="evenodd"
-                d="M10 3a.75.75 0 01.75.75v8.638l2.72-2.72a.75.75 0 111.06 1.06l-4 4a.75.75 0 01-1.06 0l-4-4a.75.75 0 111.06-1.06l2.72 2.72V3.75A.75.75 0 0110 3zm-6.25 12.25a.75.75 0 01.75-.75h11a.75.75 0 010 1.5h-11a.75.75 0 01-.75-.75z"
-                clipRule="evenodd"
-              />
-            </svg>
+            <span className="inline-flex size-5 items-center justify-center rounded-full bg-neutral-100 text-neutral-800 transition-colors group-hover:bg-neutral-200">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.75"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                aria-hidden="true"
+                className="size-3 transition-transform duration-150 group-hover:translate-y-0.5"
+              >
+                <path d="M8 2.5v7" />
+                <path d="m5 6.5 3 3 3-3" />
+                <path d="M3 12.5h10" />
+              </svg>
+            </span>
           </a>
 
           <a
