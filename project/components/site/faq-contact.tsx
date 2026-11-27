@@ -32,29 +32,29 @@ export function Faq() {
 export function Contact() {
   return (
     <section id="contact" aria-label="Contact" className="mx-auto max-w-6xl px-5 pb-10 pt-24 md:px-8">
-      <Reveal className="relative overflow-hidden rounded-[2rem] bg-ink p-8 text-primary-foreground md:p-16">
+      <Reveal className="relative overflow-hidden rounded-[2rem] bg-ink p-6 text-primary-foreground sm:p-8 md:p-16">
         <div
           aria-hidden
           className="absolute -right-24 -top-24 size-96 rounded-full bg-brand/30 blur-3xl"
         />
-        <div className="relative flex flex-col gap-10">
+        <div className="relative flex flex-col gap-8 sm:gap-10">
           <span className="flex w-fit items-center gap-2 rounded-full border border-white/15 px-3 py-1 font-mono text-xs uppercase tracking-widest text-white/70">
             <span className="size-2 rounded-full bg-emerald-400" />
             Open to new opportunities
           </span>
-          <h2 className="max-w-3xl text-balance text-4xl font-semibold leading-[1.02] tracking-tight md:text-7xl">
+          <h2 className="max-w-3xl text-balance text-3xl font-semibold leading-[1.05] tracking-tight sm:text-4xl md:text-7xl md:leading-[1.02]">
             Have a product that needs to feel{' '}
             <span className="font-serif font-normal italic text-brand">effortless?</span>
           </h2>
-          <p className="max-w-lg text-lg text-white/70">
+          <p className="max-w-lg text-base text-white/70 sm:text-lg">
             Full-time Product & UX roles in AI, healthcare and enterprise SaaS.
           </p>
           <a
             href={`mailto:${contact.email}`}
-            className="group flex w-fit items-center gap-3 text-2xl font-medium underline decoration-white/30 underline-offset-8 transition-colors hover:decoration-brand md:text-4xl"
+            className="group inline-flex max-w-full items-center gap-2 break-all text-lg font-medium underline decoration-white/30 underline-offset-8 transition-colors hover:decoration-brand sm:gap-3 sm:text-2xl md:text-4xl"
           >
-            {contact.email}
-            <ArrowUpRight className="size-6 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 md:size-8" />
+            <span>{contact.email}</span>
+            <ArrowUpRight className="size-5 shrink-0 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 sm:size-6 md:size-8" />
           </a>
           <ul className="flex flex-wrap gap-3">
             {contact.links.map((l) => (
