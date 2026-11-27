@@ -39,9 +39,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable}`}
+      className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} scroll-smooth`}
     >
-      <body className="antialiased">
+      <body className="overflow-x-clip antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
